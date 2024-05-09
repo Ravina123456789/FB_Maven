@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-22T13:11:07 IST" name="Suite" finished-at="2024-03-22T13:11:25 IST" duration-ms="17832">
+    <groups>
+    </groups>
+    <test started-at="2024-03-22T13:11:07 IST" name="Test chrome" finished-at="2024-03-22T13:11:20 IST" duration-ms="12826">
+      <class name="TestClasses.Test1">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestClasses.Test1@223d2c72]" started-at="2024-03-22T13:11:07 IST" name="beforeClass" finished-at="2024-03-22T13:11:16 IST" duration-ms="9231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClasses.Test1@223d2c72]" started-at="2024-03-22T13:11:16 IST" name="beforeMethod" finished-at="2024-03-22T13:11:16 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanLogin()[pri:0, instance:TestClasses.Test1@223d2c72]" started-at="2024-03-22T13:11:16 IST" name="VerifyUserCanLogin" finished-at="2024-03-22T13:11:16 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClasses.Test1@223d2c72]" started-at="2024-03-22T13:11:16 IST" name="afterMethod" finished-at="2024-03-22T13:11:16 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanLogin status=SUCCESS method=Test1.VerifyUserCanLogin()[pri:0, instance:TestClasses.Test1@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClasses.Test1@223d2c72]" started-at="2024-03-22T13:11:16 IST" name="beforeMethod" finished-at="2024-03-22T13:11:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanCreateNewAccount()[pri:1, instance:TestClasses.Test1@223d2c72]" started-at="2024-03-22T13:11:16 IST" name="VerifyUserCanCreateNewAccount" finished-at="2024-03-22T13:11:19 IST" duration-ms="2229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanCreateNewAccount -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClasses.Test1@223d2c72]" started-at="2024-03-22T13:11:19 IST" name="afterMethod" finished-at="2024-03-22T13:11:19 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanCreateNewAccount status=SUCCESS method=Test1.VerifyUserCanCreateNewAccount()[pri:1, instance:TestClasses.Test1@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestClasses.Test1@223d2c72]" started-at="2024-03-22T13:11:19 IST" name="afterClass" finished-at="2024-03-22T13:11:20 IST" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestClasses.Test1 -->
+    </test> <!-- Test chrome -->
+    <test started-at="2024-03-22T13:11:07 IST" name="Test firefox" finished-at="2024-03-22T13:11:25 IST" duration-ms="17832">
+      <class name="TestClasses.Test1">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestClasses.Test1@a1153bc]" started-at="2024-03-22T13:11:07 IST" name="beforeClass" finished-at="2024-03-22T13:11:20 IST" duration-ms="13001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClasses.Test1@a1153bc]" started-at="2024-03-22T13:11:20 IST" name="beforeMethod" finished-at="2024-03-22T13:11:20 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanLogin()[pri:0, instance:TestClasses.Test1@a1153bc]" started-at="2024-03-22T13:11:20 IST" name="VerifyUserCanLogin" finished-at="2024-03-22T13:11:20 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClasses.Test1@a1153bc]" started-at="2024-03-22T13:11:20 IST" name="afterMethod" finished-at="2024-03-22T13:11:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanLogin status=SUCCESS method=Test1.VerifyUserCanLogin()[pri:0, instance:TestClasses.Test1@a1153bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClasses.Test1@a1153bc]" started-at="2024-03-22T13:11:20 IST" name="beforeMethod" finished-at="2024-03-22T13:11:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanCreateNewAccount()[pri:1, instance:TestClasses.Test1@a1153bc]" started-at="2024-03-22T13:11:20 IST" name="VerifyUserCanCreateNewAccount" finished-at="2024-03-22T13:11:23 IST" duration-ms="3268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanCreateNewAccount -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClasses.Test1@a1153bc]" started-at="2024-03-22T13:11:23 IST" name="afterMethod" finished-at="2024-03-22T13:11:23 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanCreateNewAccount status=SUCCESS method=Test1.VerifyUserCanCreateNewAccount()[pri:1, instance:TestClasses.Test1@a1153bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestClasses.Test1@a1153bc]" started-at="2024-03-22T13:11:23 IST" name="afterClass" finished-at="2024-03-22T13:11:25 IST" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestClasses.Test1 -->
+    </test> <!-- Test firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
